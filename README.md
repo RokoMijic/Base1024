@@ -15,4 +15,12 @@ Some examples:
 
 The pool of characters is currently 1202 and not finalized - more analysis is required to cut unsuitable characters from the pool, or potentially add new ones. It is not recommended to use this project right now. 
 
+Initial pool of 1202 unicode characters in the 0000-FFFF range chosen for 
+
+- wide compatibility
+- no emojis
+- no characters that are too dark 
+- no characters that are too wide or too narrow, too short or too tall
+- no common modern languages except greek
+
 Base4096 is a possible extention of this project, likely with a nonoverlapping set.
